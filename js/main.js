@@ -2,6 +2,8 @@
 
 $(document).ready(function(){
     var total = 0;
+    
+    //allows the deposited money to be stored locally
     if (localStorage.getItem('total') !== null){
         total= parseFloat(localStorage.getItem('total'));
         var formattedTotal = formatDollar(total);
@@ -11,7 +13,7 @@ $(document).ready(function(){
   	//clones and set the moneys as a draggable object
   	$( ".money" ).draggable({ helper: "clone" });
 	
-	
+	//make the piigy bank droppable
 	$( ".piggyBank" ).droppable({ 
 	    accept: ".money",
 	    drop: function(event, ui) {
@@ -43,7 +45,7 @@ $(document).ready(function(){
 	
 	
 });
-
+// formats the deposits into a $0.00
 function formatDollar(num) {
     var p = num.toFixed(2).split(".");
     return "$" + p[0].split("").reverse().reduce(function(acc, num, i, orig) {
