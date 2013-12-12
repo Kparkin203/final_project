@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+body{margin:auto; background:url(../images/header.jpg);
+    background-color:#fceeea; background-repeat:repeat-x;}
+
+.wrapper {width:1200px; margin:auto; border:5px solid #8CC644; padding:10px; border-top-left-radius:5px; border-top-right-radius:5px;
+        background:url(../images/fallingcoins.jpg) #fff; align:center; background-repeat:no-repeat;}
+
+#header{margin:auto; width:1024px; height:160px;
+        font-family: 'Finger Paint', cursive; font-weight:400; color:#FFF; text-align:center; font-size:32px;
+        }
+
+.logo{background:url(../images/ePiggy_logo_header.gif); background-repeat:no-repeat; width:1000px; height:150px; float:left;}
+
+.container {width:340px; float:left;}
+
+.containerRight {width:340px; float:right;}
+
+.piggyBank {margin:auto; margin-top:370px;
+    background-image:url("../images/piggybank2.gif"); 
+    background-repeat:no-repeat; width:500px; height:322px; float:none;}
+
+
+h1{font-family: 'Finger Paint', cursive; font-weight:400;color:#8CC644; text-align:center;}
+h2{font-family: 'Finger Paint', cursive; font-weight:400;color:#c60606; text-align:center; font-size:32px;}
+
+
+.cent {
+	/*border-radius: 4px; 
+	border: thin solid #F0E020; 
+	background-color: #F8F094; 
+	width:75px; 
+	height:75px;*/ 
+	float:left;
+	margin: 10px;
+		}
+
+/*.penny {background:url(../images/OneC.gif);
+    width:89px;
+    height:89px;}*/
+
+.nickel {background:url(../images/FiveC.gif);
+    width:75px;
+    height:75px;}
+
+.dime {background:url(../images/TenC.gif);
+    width:75px;
+    height:75px;}		
+
+.quarter {background:url(../images/TwentyFiveC.gif);
+    width:94px;
+    height:94px;}
+    
+.nickelLess {background:url(../images/Five_C.gif);
+    width:75px;
+    height:75px;}
+
+.dimeLess {background:url(../images/Ten_C.gif);
+    width:75px;
+    height:75px;}		
+
+.quarterLess {background:url(../images/TwentyFive_C.gif);
+    width:94px;
+    height:94px;}
+
+
+.dollars {
+	/*border-radius: 4px; 
+	border: thin solid #F0E020; 
+	background-color: #F8F094; 
+	width:75px; 
+	height:75px;*/
+	float:left;
+	margin: 10px;
+		}		
+
+.One {background:url(../images/OneD.gif);
+    width:226px;
+    height:97px;}
+
+.Five {background:url(../images/FiveD.gif);
+    width:226px;
+    height:97px;}
+
+.Ten {background:url(../images/TenD.gif);
+    width:226px;
+    height:97px;}		
+
+.Twenty {background:url(../images/TwentyD.gif);
+    width:226px;
+    height:97px;}
+    
+.OneLess {background:url(../images/One_D.gif);
+    width:226px;
+    height:97px;}
+
+.FiveLess {background:url(../images/Five_D.gif);
+    width:226px;
+    height:97px;}
+
+.TenLess {background:url(../images/Ten_D.gif);
+    width:226px;
+    height:97px;}		
+
+.TwentyLess {background:url(../images/Twenty_D.gif);
+    width:226px;
+    height:97px;}
+
+
+#deposit {margin:auto; border-radius: 4px; 
+	border: thin solid #F0E020; padding:10px;
+	background-color: #4bacde; 
+	width:250px; 
+	height:50px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif; font-size:32px;
+	text-align:center; color:#FFF;}
+
+ #total {margin-left:380px; font-family: 'Finger Paint', cursive; font-weight:400; color:#4bacde;
+ font-size:32px;}
+	
+
